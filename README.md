@@ -24,15 +24,20 @@ receive a prediction of whether they are likely to convert or not. The app also 
 To run the app locally, follow these steps:
 
 1 .Clone the repository to your local machine.
+
 2 .Install the required packages by running pip install -r requirements.txt in the project directory.
+
 3 .Run "streamlit run deploy.py" to start the app.
+
 4 .Access the app by the link created by the ngrok to tunnel to the local host.
 
 -->> Usage <<--
+
 To use the app, simply fill out the input form with information about a potential customer, such as their age, gender, education, marital status, etc. 
 The app will then make a prediction of whether they are likely to convert or not based on the trained XGBoost Classifier model. 
 
 -->> Credits <<--
+
 This project was developed by Tamizharasan Govindasamy . The XGBoost Classifier model was built using the XGBoost library, and the web app was built 
 using Streamlit. The dataset used for this project was provided by Guvi for the educational purpose.
 
